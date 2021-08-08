@@ -199,6 +199,10 @@
 
 /*feature*/
 
+.sec-title_feature{
+    margin-bottom: 60px;
+}
+
 .feature__contents__list {
     position: relative;
     display: flex;
@@ -258,9 +262,9 @@
 
 .feature__contents__list__bg_first {
     position: absolute;
-    left: calc(100% - 100vw + 100px);
+    left: calc((100% - 100vw) + 100px);
     top: 71px;
-    width: calc(50% + 40px + 45px + 100px);
+    width: calc(50% + 45px + 40px + 100px + (100vw - 100% - 200px));
     height: 349px;
     border-radius: 0px 10px 10px 0px;
     background-color: var(--basebgcolor);
@@ -269,9 +273,9 @@
 
 .feature__contents__list__bg_last {
     position: absolute;
-    right: calc(100% - 100vw + 100px);
+    right: calc((100% - 100vw) + 100px);
     top: 71px;
-    width: calc(50% + 40px + 45px + 100px);
+    width: calc(50% + 45px + 40px + 100px + (100vw - 100% - 200px));
     height: 278px;
     border-radius: 10px 0px 0px 10px;
     background-color: var(--basebgcolor);
