@@ -93,7 +93,7 @@
 
 /*about*/
 
-.about{
+.about {
     margin-bottom: 133px;
 }
 
@@ -122,7 +122,8 @@
 }
 
 .about__contents__right {
-    width: 510px;/*fontの関係上少し大きくしています*/
+    width: 510px;
+    /*fontの関係上少し大きくしています*/
     text-align: center;
 }
 
@@ -142,4 +143,55 @@
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.05em;
+}
+
+/*what*/
+
+.what {
+    width: 100%;
+    background-image: url(../img/sample/what-bg.jpg);
+    background-size: cover;
+}
+
+.what__contents {
+    padding-left: 180px;
+}
+
+.sec-title_what {
+    padding-top: 44px;
+    margin-bottom: 70px;
+}
+
+.what__contents__contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.what__contents__contents__left {
+    width: 50%;
+}
+
+.what__contents__contents__right {
+    width: 43%;
+}
+
+.what__contents__contents__right__title {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+}
+
+.what__contents__contents__right__title span {
+    color: var(--basecolor);
+}
+
+.what__contents__contents__right__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    margin-bottom: 145px;
 }
