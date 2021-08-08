@@ -5,6 +5,7 @@
     padding-bottom: 104px;
     display: flex;
     position: relative;
+    margin-bottom: 54px;
 }
 
 .hero::before {
@@ -88,4 +89,57 @@
     left: 0;
     top: 81px;
     width: 620px;
+}
+
+/*about*/
+
+.about{
+    margin-bottom: 133px;
+}
+
+.about__title {
+    margin-bottom: 93px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.about__title span {
+    font-size: 48px;
+    line-height: 72px;
+    color: var(--basecolor);
+}
+
+.about__contents {
+    display: flex;
+    margin-right: -32px;
+    justify-content: space-between;
+}
+
+.about__contents__left {
+    width: 500px;
+}
+
+.about__contents__right {
+    width: 510px;/*fontの関係上少し大きくしています*/
+    text-align: center;
+}
+
+.about__contents__right__title {
+    margin-bottom: 41px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--basecolor);
+}
+
+.about__contents__right__text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
 }
