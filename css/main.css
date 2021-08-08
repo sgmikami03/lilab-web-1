@@ -14,7 +14,7 @@
     display: inline-block;
     bottom: 0;
     right: 100px;
-    width: calc(100% + (var(--myw) - 100%)/2);
+    width: calc(100% - 100px + (100vw - 100%)/2);
     height: 100%;
     background-image: url(../img/icon/hero-bg.png);
     background-position: bottom right;
@@ -199,7 +199,7 @@
 
 /*feature*/
 
-.sec-title_feature{
+.sec-title_feature {
     margin-bottom: 60px;
 }
 
@@ -210,7 +210,7 @@
     margin-bottom: 60px;
 }
 
-.feature__contents__list_last{
+.feature__contents__list_last {
     margin-bottom: 80px;
 }
 
