@@ -211,6 +211,10 @@
 
 /*feature*/
 
+.feature{
+    margin-bottom: 80px;
+}
+
 .sec-title_feature {
     margin-bottom: 60px;
 }

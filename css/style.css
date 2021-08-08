@@ -69,6 +69,7 @@ hr {
     font-size: 30px;
     line-height: 62px;
     height: 77px;
+    font-weight: bold;
 }
 
 .sec-title::before {
