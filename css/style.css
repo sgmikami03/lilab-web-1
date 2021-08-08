@@ -1,55 +1,86 @@
 /*変数*/
+
 :root {
-	--basecolor:#41A9A5;
-    --basebgcolor: #FFE8E8; /* 基本背景色 */
-    --textcolor: #333333; /* 基本文字色 */
+    --basecolor: #41A9A5;
+    --basebgcolor: rgba(232, 244, 246, 1);
+    /* 基本背景色 */
+    --textcolor: #333333;
+    /* 基本文字色 */
     --backgroundcolor: #FAF7F3;
     --backgroundaccentcolor: rgba(255, 232, 232, 1);
-
-	--myfont: 'Noto Sans JP', sans-serif;
-
-	--myw: 1280px; /* 標準幅 */
+    --myfont: 'Noto Sans JP', sans-serif;
+    --accent-font: 'Noto Sans JP', sans-serif;
+    --myw: 1280px;
+    /* 標準幅 */
     --content-padding-side: 16px;
 }
 
 /*定義*/
-*{
+
+* {
     font-family: var(--myfont);
 }
+
 html {
-	overflow: auto;
+    overflow: auto;
 }
+
 body {
-	overflow: hidden;
+    overflow: hidden;
 }
-.mycontents-wide{
+
+.mycontents-wide {
     max-width: var(--myw);
     padding: 0 65px;
     margin: 0 auto;
 }
-.mycontents{
+
+.mycontents {
     max-width: var(--myw);
     padding: 0 100px;
     margin: 0 auto;
 }
-.aligin-wide{
+
+.aligin-wide {
     width: 100vw;
     text-align: center;
     margin: 0 calc(50% - 50vw);
 }
-h1, h2, h3, h4, h5, h6, li, p{
+
+h1, h2, h3, h4, h5, h6, li, p {
     color: var(--textcolor);
     line-height: 155%;
 }
-hr{
+
+hr {
     color: var(--textcolor);
 }
 
 @media (max-width: 767px) {
-    .mycontents-wide, .mycontents{
+    .mycontents-wide, .mycontents {
         padding: 0 20px;
     }
 }
 
 /*見出し*/
 
+/*btn*/
+
+.wide-btn {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 70px;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background-color: var(--basecolor);
+}
+
+.wide-btn span{
+    font-family: var(--accent-font);
+}
