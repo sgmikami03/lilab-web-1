@@ -1,0 +1,54 @@
+/*変数*/
+:root {
+	--basecolor: #F24949; /* 基本色 */
+    --basebgcolor: #FFE8E8; /* 基本背景色 */
+    --textcolor: #333333; /* 基本文字色 */
+    --backgroundcolor: rgba(93, 122, 166, 0.05);
+    --backgroundaccentcolor: rgba(255, 232, 232, 1);
+
+	--gradient: linear-gradient( 79.7deg,  rgba(76,131,255,1) 8.2%, rgba(42,250,233,1) 84.9% ); 
+
+	--myfont: 'Noto Sans JP', sans-serif;
+
+	--myw: 1280px; /* 標準幅 */
+    --content-padding-side: 16px;
+}
+
+/*定義*/
+*{
+    font-family: var(--myfont);
+}
+html {
+	overflow: auto;
+}
+body {
+	overflow: hidden;
+}
+.mycontents-wide{
+    max-width: var(--myw);
+    padding: 0 80px;
+    margin: 0 auto;
+}
+.mycontents{
+    max-width:  calc(var(--myw) - 240px);
+    padding: 0 120px;
+    margin: 0 auto;
+}
+.aligin-wide{
+    width: 100vw;
+    text-align: center;
+    margin: 0 calc(50% - 50vw);
+}
+h1, h2, h3, h4, h5, h6, li, p{
+    color: var(--textcolor);
+    line-height: 155%;
+}
+hr{
+    color: var(--textcolor);
+}
+
+@media (max-width: 767px) {
+    .mycontents-wide, .mycontents{
+        padding: 0 20px;
+    }
+}
