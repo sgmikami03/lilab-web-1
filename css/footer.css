@@ -6,7 +6,7 @@
 
 .footer-pc .mycontents {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 .footer-pc__menu__title {
@@ -18,7 +18,7 @@
     letter-spacing: 0.05em;
 }
 
-.footer-pc__menu__title {
+.footer-pc__menu__title span{
     font-size: 20px;
     font-family: var(--accent-font);
 }
@@ -58,7 +58,7 @@
 
 .footer-sp__sns__img_first {
     display: inline-block;
-    margin-right: 39px;
+    margin-right: 30px;
 }
 
 .footer-pc__copy {
