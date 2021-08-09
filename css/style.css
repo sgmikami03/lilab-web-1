@@ -96,9 +96,23 @@ hr {
 }
 
 .sec-title__accent {
+    display: inline-block;
     font-weight: bold;
     font-size: 48px;
     font-family: var(--accent-font);
+    line-height: 62px;
+    letter-spacing: 0.05em;
+    color: var(--basecolor);
+}
+
+.sec-title__accent_black {
+    color: var(--textcolor);
+}
+
+.sec-title__subtitle {
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 18px;
     line-height: 62px;
     letter-spacing: 0.05em;
     color: var(--basecolor);

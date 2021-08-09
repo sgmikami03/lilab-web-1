@@ -564,15 +564,30 @@
     color: var(--basecolor);
 }
 
-.gallery__btns__btn__prev{
+.gallery__btns__btn__prev {
     margin-right: 140px;
 }
 
-.gallery__btns__hr{
+.gallery__btns__hr {
     position: absolute;
     right: 80px;
     top: 16px;
     width: 100px;
     height: 1px;
     background-color: var(--basecolor);
+}
+
+/*how*/
+
+.how {
+    padding-top: 60px;
+    margin-bottom: 100px;
+    width: 100%;
+    background-color: var(--basebgcolor);
+}
+
+.how__contents {
+    max-width: var(--myw);
+    padding: 0 170px 0 190px;
+    margin: 0 auto;
 }
