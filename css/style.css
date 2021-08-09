@@ -71,6 +71,7 @@ hr {
     line-height: 62px;
     height: 77px;
     font-weight: bold;
+    z-index: 5;
 }
 
 .sec-title::before {
@@ -121,6 +122,7 @@ hr {
 /*btn*/
 
 .wide-btn {
+    position: relative;
     display: block;
     margin: 0 auto;
     width: 500px;
@@ -133,6 +135,7 @@ hr {
     letter-spacing: 0.05em;
     color: #FFFFFF;
     background-color: var(--basecolor);
+    z-index: 5;
 }
 
 .wide-btn span {
