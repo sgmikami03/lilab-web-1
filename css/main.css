@@ -35,7 +35,12 @@
 }
 
 .hero__left__logo {
+    margin-top: 20px;
     margin-bottom: 25px;
+}
+
+.hero__left__logo img{
+    height: 60px;
 }
 
 .hero__left__title {
@@ -161,7 +166,12 @@
 .sec-title_what {
     padding-top: 44px;
     margin-bottom: 70px;
-    height: 146px;
+    height: 115px;
+}
+
+.sec-title_what img{
+    margin-right: 25px;
+    height: 54px;
 }
 
 .sec-title::before {
