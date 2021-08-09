@@ -147,6 +147,7 @@ hr {
 .info {
     padding: 113px 0;
     background-image: url(../img/sample/info-bg.jpg);
+    background-size: cover;
     text-align: center;
 }
 
