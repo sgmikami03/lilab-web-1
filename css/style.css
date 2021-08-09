@@ -4,7 +4,8 @@
     --basecolor: #41A9A5;
     --basebgcolor: rgba(232, 244, 246, 1);
     /* 基本背景色 */
-    --textcolor: #333333;
+    --textcolor: #384352;
+    --textcolor-light: #666666;
     /* 基本文字色 */
     --backgroundcolor: #FAF7F3;
     --backgroundaccentcolor: rgba(255, 232, 232, 1);
